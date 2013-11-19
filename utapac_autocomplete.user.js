@@ -21,3 +21,5 @@ window.onload = (function(e) {
     document.getElementsByName('login')[0].click()
 });
 
+// Finally, go to the url that was interrupted by UTAPAC login
+window.location.href = document.getElementsByTagName('a')[0].innerHTML
